@@ -1,0 +1,179 @@
+
+
+h1{
+  font-family: 'Neuton', serif;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+
+
+  h2{
+   /* font-family: 'Berkshire Swash', cursive;  */
+   /* font-family: 'Sacramento', cursive; */
+  font-family: 'Neuton', serif;
+  font-weight: 300;
+  font-size: 3rem;
+  }
+
+h3{
+  font-family: 'Neuton', serif;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+p{
+  color: grey;
+  font-size: 1.5rem;
+}
+
+
+
+#title {
+   background-color: #ff4c68;
+   color: white;
+ }
+
+
+   /* Title image */
+ .dog {
+   width: 50%;
+   height: 110%;
+   transform: rotate(20deg);
+    position: absolute;
+    top: -15%;
+    right: 10%;
+
+ }
+
+ .container-fluid{
+   padding: 3% 15% 7%;
+ }
+
+
+ /* Navigation Bar */
+
+ .navbar{
+   padding: 0 0 4.5rem;
+ }
+
+  .navbar-brand{
+    font-family: 'Berkshire Swash', cursive;
+    /* font-family: 'Sacramento', cursive; */
+    font-size: 3rem;
+    font-weight: bold;
+
+  }
+ .nav-item{
+   padding: 0 18px;
+ }
+
+ .nav-link{
+   font-size: 1.5rem;
+   font-family: 'Markazi Text', serif;
+ }
+
+ /* Download buttons */
+  .download-btn{
+    margin:5% 3% 5% 0;
+  }
+
+
+    /* Feature section */
+    #features {
+      padding: 7% 15%;
+
+    }
+
+    .fbox{
+      text-align: center;
+      padding: 5%;
+    }
+
+     .icon{
+       color: #ef8172;
+       margin-bottom: 1rem;
+     }
+
+   .icon:hover{
+     color:  #ff4c68;
+   }
+
+
+  /* Testimonial section */
+  #testimonials{
+
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+  }
+
+  .carousel-item{
+      padding: 7% 15%;
+  }
+
+   .testimonial-img{
+     width: 20%;
+     border-radius: 100%;
+     margin: 20px;
+   }
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.brand-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  }
+
+ .pricing-column{
+   padding: 3% 2%;
+ }
+
+
+ /* CTA Section */
+ #cta{
+   background-color: #ff4c68;
+   color: white;
+   padding: 7% 15%;
+   text-align: center;
+ }
+ .cheading{
+  font-family: 'Berkshire Swash', cursive;
+   font-weight: 300;
+   line-height: 2;
+   font-size: 3.5rem;
+ }
+
+
+
+/* Footer Section */
+  #footer{
+    text-align: center;
+    padding: 7% 15%;
+  }
+
+
+  .social-icon{
+    margin: 20px 10px;
+  }
+
+@media (max-width: 1028px ){
+
+  #title {
+    text-align: center;
+  }
+
+  .dog {
+    position: static;
+    transform: rotate(0);
+  }
+}
